@@ -1,6 +1,13 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
+:root {
+  --primary-color: #3949ab;
+  --normal-text-color: #000;
+}
+main {
   margin: 20px;
+}
+label {
+  color: var(--normal-text-color) !important;
 }
